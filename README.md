@@ -35,6 +35,11 @@ Final Term is written in [Vala](https://live.gnome.org/Vala) and built on top of
 
 Additionally, it requires [intltool](http://freedesktop.org/wiki/Software/intltool/) for localization string extraction.
 
+For example in Debian/Ubuntu to install all prerequisites, issue:
+```sh
+sudo apt-get install intltool valac libgee-dev libgee-0.8-dev libunity-dev libnotify-dev libkeybinder-dev gir1.2-keybinder-3.0 libclutter-gtk-1.0-dev libclutter-1.0-dev libmx-dev libkeybinder-3.0-dev
+```
+
 To install Final Term, execute these shell commands:
 
 ```sh
